@@ -1,0 +1,235 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fff;
+}
+
+
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+
+
+.text_hide {
+    display: block;
+    text-indent: -999em;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    text-align: left;
+    direction: ltr;
+}
+
+/* header styles */
+header {
+    background: #f0f0f0;
+    position: relative;
+}
+
+nav {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+#nav_inner {
+    padding: 57px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+#header_left {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+#header_left li {
+    display: inline;
+}
+
+#logo a {
+    background: url(../images/Baikal_Logo.png) no-repeat;
+    width: 29px;
+    height: 29px;
+    margin: 0 29px 0 0 !important;
+}
+
+#header_left li a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #3B3D40;
+    text-decoration: none;
+    text-transform: capitalize;
+    position: relative;
+    margin: 0 18px 0 0;
+    transition: .5s all ease-in;
+}
+
+.signup_btn {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    line-height: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: none;
+    color: #3B3D40;
+    border: 1px solid #DDDDDD;
+    border-radius: 40px;
+    padding: 19px 58px;
+    position: relative;
+    transition: .5s all ease-in;
+}
+
+.signup_btn:hover, .signup_btn:focus {
+    background: #000;
+    color: #fff;
+}
+  
+#header_left li a:hover, #header_left li a:focus {
+    color: #000;
+    text-decoration: underline;
+}
+
+/* rows styles */
+
+.rows_inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#impress_block h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 52px;
+    line-height: 55px;
+    font-weight: 700;
+    color: #3B3D40;
+    letter-spacing: -2px;
+    max-width: 495px;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#impress_block a {
+    background: #276cf2;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 20px 44px;
+    border-radius: 50px;
+    text-decoration: none;
+    position: relative;
+    transition: .5s all ease-in-out;
+    left: 50%;
+    transform: translateX(-50%);
+    display: inline-block;
+    margin: 46px 0;
+}
+
+
+#impress_block {
+    background: #f0f0f0;
+    padding: 149px 0 50px;
+}
+
+
+element {
+
+}
+#impress_block a {
+
+    background: #276cf2;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 20px 44px;
+    border-radius: 50px;
+    text-decoration: none;
+    position: relative;
+    transition: .5s all ease-in-out;
+    left: 50%;
+    transform: translateX(-50%);
+    display: inline-block;
+    margin: 46px 0;
+
+}
+#impress_block a:hover, #impress_block a:focus {
+    background: #3b3d40;
+    color: #fff;
+}
+
+
+/* texts styles */
+#text_block ul {
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(0, 227px));
+    justify-content: center;
+    grid-gap: 64px;
+}
+
+#text_block ul li {
+    list-style-type: none;
+    position: relative;
+}
+
+#text_block ul li h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 700;
+    color: #3C3D41;
+    margin: 0 0 14px;
+    text-transform: uppercase;
+}
+
+#text_block ul li p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #656B6F;
+    position: relative;
+}
+
+#text_block .rows_inner {
+    padding: 97px 0 68px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
