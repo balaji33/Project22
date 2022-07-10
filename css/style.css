@@ -142,7 +142,7 @@ nav {
 
 #impress_block {
     background: #f0f0f0;
-    padding: 149px 0 50px;
+    padding: 149px 0 0px;
 }
 
 
@@ -166,7 +166,7 @@ element {
     left: 50%;
     transform: translateX(-50%);
     display: inline-block;
-    margin: 46px 0;
+    margin: 46px 0 68px;
 
 }
 #impress_block a:hover, #impress_block a:focus {
@@ -211,6 +211,15 @@ element {
 
 #text_block .rows_inner {
     padding: 97px 0 68px;
+}
+
+#home_bg {
+    background: url(./images/image.png) no-repeat center bottom;
+    width: 930px;
+    height: 392px;
+    position: relative;
+    margin: 0 auto;
+    background-size: cover;
 }
 
 
